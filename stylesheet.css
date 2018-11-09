@@ -1,0 +1,102 @@
+body {
+	cursor: url(http://ani.cursors-4u.net/comics/mic-1/mic4.cur), auto;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+	font-family: "Bangers";
+	font-size: 18px;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #B22222;
+}
+
+.button {
+    background-color: #8B0000;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+	font-family: "Bangers";
+    font-size: 24px;
+    margin: 4px 2px;
+}
+
+.grid {
+	display: grid;
+	border: 2px black solid;
+	grid-template-columns: repeat(6, 1fr);
+	grid-gap: 2vh;
+}
+.box {
+	color: black;
+	font-family: "Bangers";
+    text-align: center;
+	padding: 1em;
+}
+
+.colspan6{
+	grid-column-start: 1;
+	grid-column-end: span 6;
+}
+
+.colspan3-1 {
+	grid-column-start: 1;
+	grid-column-end: span 3;
+}
+
+.colspan3-4 {
+	grid-column-start: 4;
+	grid-column-end: span 6;
+}
+
+.colspan2-1 {
+	grid-column-start: 1;
+	grid-column-end: span 2;
+}
+
+.colspan2-3 {
+	grid-column-start: 3;
+	grid-column-end: span 2;
+}
+
+.colspan2-5 {
+	grid-column-start: 5;
+	grid-column-end: span 2;
+}
+h1 {
+	font-size: 48px;
+}
+
+h2 {
+	font-size: 36px;
+}
+
+h3 {
+	font-size: 26px;
+}
+@font-face {
+	font-family: "Bangers";
+	src: url("Bangers-Regular.ttf");
+}
